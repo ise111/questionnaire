@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import Container from '@mui/material/Container'
 import Input from '@mui/material/Input'
-import firebase from './config/firebase'
+import firebase from './config/_firebase'
 import { nanoid } from 'nanoid'
 
 export default function Home() {
